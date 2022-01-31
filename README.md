@@ -1,5 +1,11 @@
 <p align="center"><img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh"></p>
 
+Personal config:
+
+```
+git clone https://github.com/dr4g0nsr/ohmyzsh.git .oh-my-zsh && echo "source $HOME/.oh-my-zsh/.myzsh"
+```
+
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/) configuration.
 
 Sounds boring. Let's try again.
