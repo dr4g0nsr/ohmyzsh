@@ -4,6 +4,7 @@ Personal config:
 
 ```
 git clone https://github.com/dr4g0nsr/ohmyzsh.git .oh-my-zsh && echo "source $HOME/.oh-my-zsh/.myzsh" > $HOME/.zshrc
+chsh -s $(which zsh)
 ```
 
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/) configuration.
