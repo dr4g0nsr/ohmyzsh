@@ -24,4 +24,4 @@ alias dp='docker ps'
 
 # misc
 alias ds='du -sh $1'
-alias ff='find / -type f -exec grep -H "$1" {} \;'
+alias ff='find . -type f -exec grep -H "$1" {} \;'
