@@ -12,4 +12,16 @@
 bindkey  "^[[1~"   beginning-of-line
 bindkey  "^[[4~"   end-of-line
 
-alias git-store='git config --global credential.helper store'
+# git
+alias git-store-credentials='git config --global credential.helper store'
+alias gp='git pull'
+
+# docker
+alias dcd='docker-compose down'
+alias dt='docker top'
+alias dcu='docker-compose up -d'
+alias dp='docker ps'
+
+# misc
+alias ds='du -sh %1'
+alias ff='find / -type f -exec grep -H "%1" {} \;'
