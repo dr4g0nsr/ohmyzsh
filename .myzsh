@@ -100,5 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias kc="kubectl"
+alias ka="kubeadm"
+
 bindkey  "^[[1~"   beginning-of-line
 bindkey  "^[[4~"   end-of-line
