@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 alias kc="kubectl"
 alias ka="kubeadm"
 alias calico="kubectl create -f https://docs.projectcalico.org/manifests/tigera-operator.yaml && kubectl create -f https://docs.projectcalico.org/manifests/custom-resources.yaml"
+alias flannel="kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml"
 
 bindkey  "^[[1~"   beginning-of-line
 bindkey  "^[[4~"   end-of-line
