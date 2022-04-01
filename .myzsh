@@ -102,8 +102,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias kc="kubectl"
 alias ka="kubeadm"
-alias calico="kubectl create -f https://docs.projectcalico.org/manifests/tigera-operator.yaml && kubectl create -f https://docs.projectcalico.org/manifests/custom-resources.yaml"
 alias flannel="kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml"
+alias kuberouter="kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml"
 
 bindkey  "^[[1~"   beginning-of-line
 bindkey  "^[[4~"   end-of-line
