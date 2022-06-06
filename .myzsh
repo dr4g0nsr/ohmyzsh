@@ -100,10 +100,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# K8S
 alias kc="kubectl"
 alias ka="kubeadm"
 alias flannel="kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml"
 alias kuberouter="kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml"
 
+# Dockers
+alias portainer="cd ~ && mkdir docker && cd docker && wget https://gist.githubusercontent.com/dr4g0nsr/9454b5f4a2267b398756c2c394ade1ee/raw/d9dbd138f5c3f9c61181c534e9f2382ae5c2f329/docker-compose.yml && docker-compose up -d"
 bindkey  "^[[1~"   beginning-of-line
 bindkey  "^[[4~"   end-of-line
