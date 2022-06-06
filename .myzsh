@@ -107,6 +107,6 @@ alias flannel="kubectl apply -f https://raw.githubusercontent.com/flannel-io/fla
 alias kuberouter="kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml"
 
 # Dockers
-alias portainer="cd ~ && mkdir docker && cd docker && wget https://gist.githubusercontent.com/dr4g0nsr/9454b5f4a2267b398756c2c394ade1ee/raw/d9dbd138f5c3f9c61181c534e9f2382ae5c2f329/docker-compose.yml && docker-compose up -d"
+alias portainer="cd ~ && mkdir docker && cd docker && wget https://gist.githubusercontent.com/dr4g0nsr/9454b5f4a2267b398756c2c394ade1ee/raw/7c93d0e227efc2eb7708e3bcb34526c4372c09d9/docker-compose.yml && docker-compose up -d"
 bindkey  "^[[1~"   beginning-of-line
 bindkey  "^[[4~"   end-of-line
